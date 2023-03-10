@@ -1,7 +1,6 @@
 import { Web3Button } from "@thirdweb-dev/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import { nftDropContractAddress } from "../consts/contractAddresses";
 import styles from "../styles/Home.module.css";
 import Iframe from 'react-iframe';
 
