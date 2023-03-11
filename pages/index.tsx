@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         >
           {/* Mint a new NFT */}
 
-          <button className={styles.mainButton} onClick={() => router.push(`/shop`)}>
+          <button className={styles.mainButton} onClick={() => router.push(`/mint`)}>
             <h2><b>Buy NFT</b></h2>
           </button>
           <div>
