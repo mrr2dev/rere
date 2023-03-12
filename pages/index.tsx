@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <div
           className={styles.optionSelectBox}
           role="button"
-          onClick={() => router.push(`/shop`)}
+          onClick={() => router.push(`/mint`)}
         >
           {/* Mint a new NFT */}
 
