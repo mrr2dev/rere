@@ -38,31 +38,31 @@ const Mint: NextPage = () => {
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
       <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0x40811529234f1782Bea996f1D8c89631511b38D7&chain=56"
         width="500px"
-        height="500px"
+        height="485px"
         display="initial"
         position="static"/>
         <p></p>
         <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0x5cD1C3C0e607178339185fa75b11F9A184531d5C&chain=56"
         width="500px"
-        height="500px"
+        height="485px"
         display="block"
         position="relative"/>
         <p></p>
         <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0x0CBDDc96682D8A887cE2Ab5A7b89E46Be42F41a1&chain=56"
         width="500px"
-        height="500px"
+        height="485px"
         display="block"
         position="relative"/>
         <p></p>
          <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0x8cEc2Ab5Bf43C231a010fAa30DD7Ab86745d3bb8&chain=56"
         width="500px"
-        height="500px"
+        height="485px"
         display="block"
         position="relative"/>
         <p></p>
         <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0x5f2652B8Bf786f446A0db5b31398C2F3bA3cD923&chain=56"
         width="500px"
-        height="500px"
+        height="485px"
         display="block"
         position="relative"/>
 
