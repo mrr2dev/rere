@@ -16,19 +16,19 @@ const Mint: NextPage = () => {
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
       <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0xcaB7AE3150eAffe5D962027D766f3dbE072c1fc0&chain=56"
         width="500px"
-        height="500px"
+        height="525px"
         display="initial"
         position="static"/>
         <p></p>
         <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0xcaB7AE3150eAffe5D962027D766f3dbE072c1fc0&chain=56"
         width="500px"
-        height="500px"
+        height="525px"
         display="block"
         position="relative"/>
         <p></p>
         <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0xcaB7AE3150eAffe5D962027D766f3dbE072c1fc0&chain=56"
         width="500px"
-        height="500px"
+        height="525px"
         display="block"
         position="relative"/>
 
