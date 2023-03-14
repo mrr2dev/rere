@@ -20,13 +20,13 @@ const Mint: NextPage = () => {
         display="initial"
         position="static"/>
         <p></p>
-        <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0xcaB7AE3150eAffe5D962027D766f3dbE072c1fc0&chain=56"
+        <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0x6A78a33D679BEfCF2079c32580001E808697Ccc8&chain=56"
         width="500px"
         height="525px"
         display="block"
         position="relative"/>
         <p></p>
-        <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0xcaB7AE3150eAffe5D962027D766f3dbE072c1fc0&chain=56"
+        <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0xe39Efb915228eB2C11b514f0586F3D1f76CE9212&chain=56"
         width="500px"
         height="525px"
         display="block"
