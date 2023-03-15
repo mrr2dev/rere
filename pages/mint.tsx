@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
 import Iframe from 'react-iframe';
+import Image from "next/image";
 
 const Mint: NextPage = () => {
   const router = useRouter();
@@ -10,9 +11,27 @@ const Mint: NextPage = () => {
   return (
     <div className={styles.container}>
        <img src={`https://i.ibb.co/bJbRKSR/logo6.png`} />
-    <h1 className={styles.h1}> <u>Buy An NFT From Ashraf Ghori </u></h1>
-      <p> Ashraf Ghori is an Award-winning artist and filmmaker best known for creating the UAE’s first CGI Science Fiction film ‘Xero Error’ which gained acclaim at prominent film festivals internationally. He is the recipient of the prestigious UAE Golden Visa for Achievement in the Creative Arts.
-        </p>
+    <h1 className={styles.h1}> <u>Presale NFT Mosque with Ashraf Ghori from UEA</u></h1>
+       <Image
+        src="/ASHRAFXICOINHUB.png"
+        alt="presale"
+        width={1150}
+        height={320}
+        className={styles.buttonGapTop}
+        style={{
+          objectFit: "contain",
+        }}
+      />
+      <Image
+        src="/profile.png"
+        alt="presale"
+        width={1550}
+        height={520}
+        className={styles.buttonGapTop}
+        style={{
+          objectFit: "contain",
+        }}
+      />
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
       <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0xcaB7AE3150eAffe5D962027D766f3dbE072c1fc0&chain=56"
         width="500px"
