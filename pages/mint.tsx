@@ -22,6 +22,14 @@ const Mint: NextPage = () => {
           objectFit: "contain",
         }}
       />
+        <h1 className={styles.h1}>
+      <a href="https://www.ashrafghori.com" >
+        <u>www.ashrafghori.com</u></a>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://icoinhub.co">www.icoinhub.co</a></span>
+        </h1>
+        <p></p>
       <Image
         src="/profile.png"
         alt="presale"
