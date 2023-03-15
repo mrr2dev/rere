@@ -59,9 +59,22 @@ const Mint: NextPage = () => {
         display="block"
         position="relative"/>
 
-      <h1><u>Special Murottal from Wirda Mansur CEO I-COIN HUB</u></h1>
-      <p>President of MAB | Creativepreneur | Author </p>
-      <p>https://www.instagram.com/wirda_mansur | @icoinhub.co | @wakeupmakeup.cosmetics | @millennialantibokek</p>
+      <p></p>
+ <p></p>
+ <p></p>
+      <h1><u>NFT JUZ AMMA series by Wirda Mansur <i>#batch1</i></u></h1>
+      <img src={`https://i.ibb.co/bJbRKSR/logo6.png`} />
+      <Image
+        src="/profile2.png"
+        alt="presale"
+        width={1550}
+        height={520}
+        className={styles.buttonGapTop}
+        style={{
+          objectFit: "contain",
+        }}
+      />
+    <p></p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
       <Iframe url="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0x40811529234f1782Bea996f1D8c89631511b38D7&chain=56"
         width="500px"
