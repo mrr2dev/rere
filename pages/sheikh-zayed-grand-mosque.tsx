@@ -11,12 +11,12 @@ import {
 import { BigNumber, ethers } from "ethers";
 import type { NextPage } from "next";
 import { useEffect, useState } from "react";
-import NFTCard from "../components/Sheikh-Zayed-Grand-Mosque-NFT";
+import NFTCard from "../components/Al-Falaq-NFT";
 import {
   nftDropContractAddress,
   stakingContractAddress,
   tokenContractAddress,
-} from "../consts/Sheikh-Zayed-Grand-Mosque-Contract";
+} from "../consts/Al-Falaq-Contract";
 import styles from "../styles/Home.module.css";
 
 const Stake: NextPage = () => {
@@ -36,7 +36,7 @@ const Stake: NextPage = () => {
   const { data: stakedTokens } = useContractRead(
     contract,
     "getStakeInfo",
-    address,
+    address
   );
 
   useEffect(() => {
@@ -106,7 +106,7 @@ const Stake: NextPage = () => {
 
           
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
-          <h2>Your Staked Sheikh Zayed Grand Mosque NFTs</h2>
+          <h2>Your Staked Al-Falaq NFTs</h2>
           <div className={styles.nftBoxGrid}>
             {stakedTokens &&
               stakedTokens[0]?.map((stakedToken: BigNumber) => (
@@ -118,7 +118,7 @@ const Stake: NextPage = () => {
           </div>
 
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
-          <h2>Your Unstaked Sheikh Zayed Grand Mosque NFTs</h2>
+          <h2>Your Unstaked Al-Falaq NFTs</h2>
           <div className={styles.nftBoxGrid}>
             {ownedNfts?.map((nft) => (
               <div key={nft.metadata.id.toString()}>
