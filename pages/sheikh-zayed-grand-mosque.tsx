@@ -33,15 +33,17 @@ const Stake: NextPage = () => {
   const { data: ownedNfts } = useOwnedNFTs(nftDropContract, address);
   const { data: tokenBalance } = useTokenBalance(tokenContract, address);
   const [claimableRewards, setClaimableRewards] = useState<BigNumber>();
-  const { data: stakedTokens } = useContractRead(contract, "getStakeInfo", [
+  const { data: stakedTokens } = useContractRead(
+    contract,
+    "getStakeInfo",
     address,
-  ]);
+  );
 
   useEffect(() => {
     if (!contract || !address) return;
 
     async function loadClaimableRewards() {
-      const stakeInfo = await contract?.call("getStakeInfo", [address]);
+      const stakeInfo = await contract?.call("getStakeInfo", address);
       setClaimableRewards(stakeInfo[1]);
     }
 
