@@ -11,7 +11,7 @@ const Mint: NextPage = () => {
   return (
     <div className={styles.container}>
        <img src={`https://i.ibb.co/bJbRKSR/logo6.png`} />
-    <h1 className={styles.h1}> <u>Presale NFT Mosque with Ashraf Ghori from UEA</u></h1>
+    <h1 className={styles.h1}> <u>NFT Mosque with Ashraf Ghori from UEA</u></h1>
        <Image
         src="/ASHRAFXICOINHUB.png"
         alt="presale"
