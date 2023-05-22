@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           </button>
           <div>
             <h3>
-              Get EARLY PRICE in PRESALE NFT
+              Get NFT Juz Amma from Wirda Mansur & NFT Mosque from Ashraf Ghori
             </h3>
           </div>
         </div>
